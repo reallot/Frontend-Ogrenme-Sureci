@@ -2,7 +2,7 @@
 
 Merhaba!  
 Bu repoda **HTML**, **CSS**, **JavaScript** ve **Bootstrap** öğrenme sürecimi gün gün paylaşacağım.  
-Amacım bu teknolojileri öğrenip frontend geliştirme alanında kendimi geliştirmek. Öğrenme sürecimi başlıca YouTube üzerinden **Enes Bayram kanalı üzerinden yürüteceğim.
+Amacım bu teknolojileri öğrenip frontend geliştirme alanında kendimi geliştirmek. Öğrenme sürecimi başlıca YouTube üzerinden **Enes Bayram** kanalı üzerinden yürüteceğim.
 Kullanacağım [playlist](https://www.youtube.com/playlist?list=PLURN6mxdcwL_D8H1iki2YCmp-lNyNAdbz) O zaman hazırsanız başlayalım ;)💻🚀
 
 ## 📅 Günlük İlerlemeler
