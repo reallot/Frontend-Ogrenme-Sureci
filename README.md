@@ -41,5 +41,5 @@ Sen de frontend öğrenmeye başlıyorsan bu repoyu takip edebilirsin!
 
 ---
 
-**📫 İletişim:** [LinkedIn](https://www.linkedin.com/emirhanayazz)
+**📫 İletişim:** [LinkedIn](https://www.linkedin.com/in/emirhanayazz/)
 
