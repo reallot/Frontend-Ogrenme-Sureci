@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="elma"><!-- siteye keyword ekleme-->
+    <title>Emirhan Ayaz</title><!-- Sitenin başlığı-->
+</head>
+<!-- Sitede bodynin içine yazılanlar görünür!!-->
+
+<!-- 
+    Visual Studio Code Kısayolları
+
+    1- ALT + SHIFT + F = Kodları düzenlemek (satırlar birbirinden farklı yamuk yumuksa nizami şekilde)
+    2- CTRL + ALT + aşağı veya yukarı ok imleci yukarı veya aşağı büyütüyor.
+    3- ALT + yukarı aşağı ok tuşarı = satırı kaydırmak için
+    4- Yazıyı seçip CTRL+D aynı diğer yazıları'da seçiyor daha sonra değiştirme veya ekleme yap.
+    5- CTRL+SHIFT+K = Satır Silmek
+    6- CTRL+ENTER = Yeni satır
+    7- CTRL + K + C yeni ile yorum satiri (Aynı zamanda seçtiğimiz
+    satırı yorum satırına dönüştürebilir.)
+-->
+
+
+<body>
+
+    <center><h1><i><mark>EMİRHAN AYAZ</mark></i></h1></center>
+    <br>
+    <hr>
+    <br>
+    <center><h2>Turkish Airlines</h2></center>
+    <!-- yorum satırı böyle yazılır-->
+
+    <!--
+        
+         böyle yazınca 2 satır arası komple yorum oluyor
+      
+        
+      -->
+
+    <!--
+      lorem yazınca komple rastgele paragraf verir loremx -> x kelime sayısı
+
+      0 - p = paragraf
+      1 - hr -- bu etiketi yazınca sayfaya çizgi çeker,
+      2 - br (break) -- 2 satır arasına boşluk bırakır,
+      3 - strong -- yazıyı kalınlaştırır,
+      4 - b (bold) -- strong ile aynı ,
+      5 - i (italic) -- yazıyı italik yapar (yatırır),
+      6 - mark (marker) -- fosforlu kalem gibi yazının üstünü çizer,
+      7 - center -- resim veya yazıyı ortalar
+
+      8 - img -- resim eklemek için kullanılır,
+      9 - src -- resimin pathini gösterir,
+      10 - alt -- resimi bulamazsa uyarı verir,
+      11 - width -- resimin genişliğini belirler
+      12 - height -- resimin boyunu belirler
+
+      13 - link vermek için kullanılır
+
+      -->
+
+    <!-- <p><strong>Lorem ipsum dolor sit amet consectetur.</strong></p>
+    <p><strong><i>Merhaba</i></strong></p>
+    <i>merhaba</i> -->
+
+    <center><img src="resimler/THY-a350-e1698859056882.jpg"
+        alt="Resim bulunamadı"
+        width="350"
+        height="200">
+        <i><b>
+            <p> THY A350</p>
+        </b></i>
+
+
+   YouTube'a gitmek için <a href="https://www.youtube.com" target="_blank">tıklayınız. </a>
+   
+   </center>
+   <center>
+    <a href="https://youtube.com" target="_blank">
+        <img src="resimler/youtube-logo.jpg" alt="Resim bulunamadı" height="100" width="100">
+    </a>
+   </center>
+   <!-- Logoya basılınca linke gider -->
+
+</body>
+
+</html>
