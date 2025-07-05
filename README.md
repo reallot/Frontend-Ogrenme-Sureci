@@ -29,7 +29,7 @@ Her gün öğrendiklerimi ve uyguladığım örnekleri `gün1`, `gün2`, ... kla
 | Proje | Açıklama |
 |-------|----------|
 
-Öğrenme sürecimin sonuna kadar yapacağım tüm "mini" diyebileceğimiz projeleri de ayriyeten; "proje1", "proje2", "proje3" vb. olarak ekleyeceğim.
+Öğrenme sürecimin sonuna kadar yapacağım tüm "mini" diyebileceğimiz projeleri de ayriyeten; `proje1`, `proje2`, `proje3` vb. olarak ekleyeceğim.
 
 
 Aynı zamanda öğrenme sürecimin sonunda tüm öğrendiklerimi birleştirerek bir frontend web sitesi tasarlayarak yeni bir repo oluşturacağım. Ardından öğrenme
