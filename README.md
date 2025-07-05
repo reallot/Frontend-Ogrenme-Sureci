@@ -6,11 +6,12 @@ Amacım bu teknolojileri öğrenip frontend geliştirme alanında kendimi geliş
 Kullanacağım [playlist](https://www.youtube.com/playlist?list=PLURN6mxdcwL_D8H1iki2YCmp-lNyNAdbz) de budur. O zaman hazırsanız başlayalım ;)💻🚀
 
 ## 📅 Günlük İlerlemeler
-Her gün öğrendiklerimi ve uyguladığım örnekleri `gün1`, `gün2`, ... klasörlerinde paylaşacağım.
+Her gün öğrendiklerimi ve uyguladığım örnekleri `Gün-1`, `Gün-2`, ... klasörlerinde paylaşacağım.
 
 | Gün | Konular | Açıklama |
 |-----|--------|----------|
 | 1. Gün | HTML Temelleri | Etiketler, yapılar, temel sayfa oluşturma |
+| 2. Gün | HTML Bitirme | Tablo, form, div, inframe |
 
 > Not: Bu tablo ve içerikler sürece göre güncellenecektir.
 
