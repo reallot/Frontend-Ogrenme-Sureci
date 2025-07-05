@@ -20,6 +20,7 @@ Her gün öğrendiklerimi ve uyguladığım örnekleri `gün1`, `gün2`, ... kla
 - [ ] CSS
 - [ ] Bootstrap
 - [ ] JavaScript
+- [ ] jQuery
 - [ ] Mini projeler
 
 ## 🛠 Projeler
