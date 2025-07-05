@@ -16,8 +16,8 @@ Her gün öğrendiklerimi ve uyguladığım örnekleri `gün1`, `gün2`, ... kla
 
 ## 🚧 Hedef Teknolojiler
 
-- [ ] HTML (Devam ediyor)
-- [ ] CSS
+- [x] HTML
+- [ ] CSS (Devam ediyor)
 - [ ] Bootstrap
 - [ ] JavaScript
 - [ ] jQuery
