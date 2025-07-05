@@ -9,13 +9,18 @@
 
     <style>
         /* . koyunca class, # koyunca id olur */
-        .ozellikler{
+        .ozellikler {
             width: 31.25%;
             height: 23px;
             background-color: rgb(214, 93, 188);
             text-align: center;
             margin-bottom: 5px;
 
+        }
+
+        .formDiv {
+            width: 320px;
+            background-color: beige;
         }
     </style>
 </head>
@@ -87,6 +92,18 @@
       önce head kısmında class veya id oluşturup referans
       göstermemiz lazım.
 
+      21 - form -- form oluşturma
+      - <input type="text"> 
+      - <input type="password"> 
+      - <input type="email"> 
+      - <input type="checkbox"> 
+      - <input type="radio"> 
+      - <input type="file"> 
+      - <input type="submit">  
+      - <input type="reset">  
+      - <input type="date">
+
+
       -->
 
     <!-- <p><strong>Lorem ipsum dolor sit amet consectetur.</strong></p>
@@ -145,11 +162,23 @@
         </li>
     </ol>
 
+    <center>
+        <video width="480" height="320" controls>
 
+            <source src="videolar/Thy landing.mp4">
+
+        </video>
+    </center>
     <div class="ozellikler">
         <h3>Div testi</h3>
     </div>
 
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-iJYbbPvHTQ?si=gFrVtutAnGr5SDIS"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
     <!-- text-align : center tabloda yazıları ortalar-->
     <table border="3" style="text-align: center;">
 
@@ -188,6 +217,99 @@
     </center>
     <!-- Logoya basılınca linke gider -->
 
+    <center>
+        <div class="formDiv">
+            <form>
+                <table>
+
+
+                    <tr>
+                        <th>İsim :</th>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <th>Soyisim :</th>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <th>Email :</th>
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <th>Şifre :</th>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <th>Doğum Tarihi :</th>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <th>Cinsiyet :</th>
+                        <td>
+                            <input id=Erkek name=cinsiyet type="radio" value="Erkek">
+                            <label for="Erkek">Erkek</label>
+                            <input id=Kadın name="cinsiyet" type="radio" value="Kadın">
+                            <label for="Kadın">Kadın</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Dosya seçiniz :</th>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Sevilen uçak modelleri</th><br>
+                    </tr>
+                    <tr>
+                        <td>A320</td>
+                        <td><input type="checkbox" id="values"></td>
+                    </tr>
+                    <tr>
+                        <td>B737</td>
+                        <td><input type="checkbox" id="values"></td>
+                    </tr>
+                    <tr>
+                        <td>A350</td>
+                        <td><input type="checkbox" id="values"></td>
+                    </tr>
+                    <tr>
+                        <td>A380</td>
+                        <td><input type="checkbox" id="values"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Havayolu</th><br>
+                    </tr>
+                    <tr>
+                        <td>Türk Hava Yolları</td>
+                        <td><input name=havayolu type="radio" value="thy"></td>
+                    </tr>
+                    <tr>
+                        <td>Pegasus</td>
+                        <td><input name=havayolu type="radio" value="pgs"></td>
+                    </tr>
+                    <tr>
+                        <td>Sunexpress</td>
+                        <td><input name=havayolu type="radio" value="thy"></td>
+                    </tr>
+                    <tr>
+                        <td>Corendon</td>
+                        <td><input name=havayolu type="radio" value="corendon"></td>
+                    </tr>
+                    <tr>
+                        <th>Göndereceğiniz mesajı giriniz :</th>
+                        <td><textarea name="mesajGirdi" id="mesajKutu" cols="25" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Gönder">
+                            <input type="reset" value="Temizle">
+
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+    </center>
 </body>
 
 </html>
