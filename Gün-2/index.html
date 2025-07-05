@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="elma"><!-- siteye keyword ekleme-->
+    <title>Emirhan Ayaz</title><!-- Sitenin başlığı-->
+
+    <style>
+        /* . koyunca class, # koyunca id olur */
+        .ozellikler{
+            width: 31.25%;
+            height: 23px;
+            background-color: rgb(214, 93, 188);
+            text-align: center;
+            margin-bottom: 5px;
+
+        }
+    </style>
+</head>
+<!-- Sitede bodynin içine yazılanlar görünür!!-->
+
+<!-- 
+    Visual Studio Code Kısayolları
+
+    1- ALT + SHIFT + F = Kodları düzenlemek (satırlar birbirinden farklı yamuk yumuksa nizami şekilde)
+    2- CTRL + ALT + aşağı veya yukarı ok imleci yukarı veya aşağı büyütüyor.
+    3- ALT + yukarı aşağı ok tuşarı = satırı kaydırmak için
+    4- Yazıyı seçip CTRL+D aynı diğer yazıları'da seçiyor daha sonra değiştirme veya ekleme yap.
+    5- CTRL+SHIFT+K = Satır Silmek
+    6- CTRL+ENTER = Yeni satır
+    7- CTRL + K + C yeni ile yorum satiri (Aynı zamanda seçtiğimiz
+    satırı yorum satırına dönüştürebilir.)
+-->
+
+
+<body>
+
+    <center>
+        <h1><i><mark>EMİRHAN AYAZ</mark></i></h1>
+    </center>
+    <br>
+    <hr>
+    <br>
+    <center>
+        <h2>Turkish Airlines</h2>
+    </center>
+    <!-- yorum satırı böyle yazılır-->
+
+    <!--
+        
+         böyle yazınca 2 satır arası komple yorum oluyor
+      
+        
+      -->
+
+    <!--
+      lorem yazınca komple rastgele paragraf verir loremx -> x kelime sayısı,
+
+      0 - p = paragraf,
+      1 - hr -- bu etiketi yazınca sayfaya çizgi çeker,
+      2 - br (break) -- 2 satır arasına boşluk bırakır,
+      3 - strong -- yazıyı kalınlaştırır,
+      4 - b (bold) -- strong ile aynı ,
+      5 - i (italic) -- yazıyı italik yapar (yatırır),
+      6 - mark (marker) -- fosforlu kalem gibi yazının üstünü çizer,
+      7 - center -- resim veya yazıyı ortalar,
+
+      8 - img -- resim eklemek için kullanılır,
+      9 - src -- resimin pathini gösterir,
+      10 - alt -- resimi bulamazsa uyarı verir,
+      11 - width -- resimin genişliğini belirler,
+      12 - height -- resimin boyunu belirler,
+
+      13 - a -- link vermek için kullanılır,
+      14 - ol (ordinary list),
+      15 - ul (unordinary list),
+      16 - table -- tablo,
+      17 - td (table data), th (table header), tr (table row),
+      18 - rowspan,colspan -- satır veya sütunları birleştirme
+      19 - span -- header veya paragraf gibi tüm satırı kaplamaz
+      sadece yazılan text kadar yer kaplar. Buna inline olması
+      denir. Diğerleri block.
+      
+      20 - div dörtgen bir alanda düzenleme yapmamıza yarar.
+      önce head kısmında class veya id oluşturup referans
+      göstermemiz lazım.
+
+      -->
+
+    <!-- <p><strong>Lorem ipsum dolor sit amet consectetur.</strong></p>
+    <p><strong><i>Merhaba</i></strong></p>
+    <i>merhaba</i> -->
+
+    <center><img src="resimler/THY-a350-e1698859056882.jpg" alt="Resim bulunamadı" width="350" height="200">
+        <i><b>
+                <p> THY A350</p>
+            </b></i>
+
+
+        YouTube'a gitmek için <a href="https://www.youtube.com" target="_blank">tıklayınız. </a>
+
+    </center>
+    <h3>HAVAYOLLARI</h3>
+    <ul>
+        <li>THY</li>
+        <li>Pegasus</li>
+        <li>Sunexpress</li>
+        <li>Corendon</li>
+    </ul>
+    <hr>
+    <ol>
+        <li>THY</li>
+        <li>Pegasus</li>
+        <li>Sunexpress</li>
+        <li>Corendon</li>
+    </ol>
+    <hr>
+
+    <ol type="1">
+        <li>
+            Türk Şirketler
+            <ol type="I">
+                <li>THY</li>
+                <li>Pegasus</li>
+                <li>Sunexpress</li>
+                <li>Corendon</li>
+            </ol>
+        </li>
+
+        <li>
+            Yabancı Şirketler
+            <ol type="A">
+                <li>Lufthansa
+                    <ul>
+                        <li>En büyük şirket</li>
+                    </ul>
+                </li>
+
+                <li>British</li>
+                <li>Emirates</li>
+                <li>Delta</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <div class="ozellikler">
+        <h3>Div testi</h3>
+    </div>
+
+    <!-- text-align : center tabloda yazıları ortalar-->
+    <table border="3" style="text-align: center;">
+
+        <tr>
+            <th colspan="4">Kişisel Bilgiler</th>
+        </tr>
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Şehir</th>
+            <th>Yaş</th>
+
+        </tr>
+
+        <tr>
+
+            <td>Emirhan</td>
+            <td>Ayaz</td>
+            <td>İstanbul</td>
+            <td>18</td>
+        </tr>
+
+        <tr>
+            <td>Emre</td>
+            <td>Duman</td>
+            <td>Çanakkale</td>
+            <td>29</td>
+        </tr>
+    </table>
+
+    <!--<span>deneme</span>-->
+    <center>
+        <a href="https://youtube.com" target="_blank">
+            <img src="resimler/youtube-logo.jpg" alt="Resim bulunamadı" height="100" width="100">
+        </a>
+    </center>
+    <!-- Logoya basılınca linke gider -->
+
+</body>
+
+</html>
