@@ -18,8 +18,8 @@ Her gün öğrendiklerimi ve uyguladığım örnekleri `Gün-1`, `Gün-2`, ... k
 ## 🚧 Hedef Teknolojiler
 
 - [x] HTML
-- [ ] CSS (Devam ediyor)
-- [ ] Bootstrap
+- [x] CSS 
+- [ ] Bootstrap (Devam ediyor)
 - [ ] JavaScript
 - [ ] jQuery
 - [ ] Mini projeler
