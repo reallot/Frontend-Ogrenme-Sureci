@@ -12,6 +12,7 @@ Her gün öğrendiklerimi ve uyguladığım örnekleri `Gün-1`, `Gün-2`, ... k
 |-----|--------|----------|
 | 1. Gün | HTML Temelleri | Etiketler, yapılar, temel sayfa oluşturma |
 | 2. Gün | HTML Bitirme | Tablo, form, div, inframe |
+| 3. Gün | CSS başlangıç ve bitiş | Color,text vb. |
 
 > Not: Bu tablo ve içerikler sürece göre güncellenecektir.
 
