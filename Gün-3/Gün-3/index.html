@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+        i {
+            font-size: 50px;
+            color: darkblue;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        a,
+        b {
+            font-size: 30px;
+        }
+
+        a:link {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(66, 180, 127);
+        }
+
+        a:active {
+            color: brown;
+            background-color: rgb(126, 144, 243);
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        .deneme {
+
+            width: 30%;
+            height: 350px;
+            overflow: auto;
+            margin-left: 35%;
+            text-align: center;
+            margin-bottom: 5%;
+        }
+    </style>
+    <!-- <link rel="icon" type="image/png" href="resimler/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="resimler/favicon.svg" />
+    <link rel="shortcut icon" href="resimler/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="resimler/apple-touch-icon.png" />
+    <link rel="manifest" href="resimler/site.webmanifest" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> -->
+    <link rel="stylesheet" href="testCSS.css">
+</head>
+
+<body>
+
+
+    <!-- CSS kullanımı
+     1 - etiket ile dahil etme
+     2 - style etiketleri ile dahil etme
+     3 - harici dosya olarak dahil etme. (link ile eklenir.)
+     4 - ID eşsizdir.
+     5 - Class birden fazla kez kullanılabilir.
+    -->
+
+    <!-- <h1>Merhaba</h1> -->
+    <!-- <h2 style="color: aquamarine;">Selam</h2> -->
+    <!-- <h2>CSS için test</h2> -->
+    <!-- <h1 class="yaziOzellik">Class testi</h1> -->
+
+    <ul>
+        <li><a href="https://www.turkishairlines.com">THY</a></li>
+        <li><a href="https://www.sunexpress.com">SunExpress</a></li>
+        <li><a href="https://www.flypgs.com">Pegasus</a></li>
+        <li><a href="https://www.lufthansa.com">Lufthansa</a></li>
+        <li><a href="https://www.delta.com">Delta</a></li>
+    </ul>
+
+
+    <div class="deneme">
+        <h3><b>İSTİKLÂL MARŞI</b></h3>
+        <img src="resimler/tr.png" alt="Resim Bulunamadı!" class="imgg">
+        <p>Korkma, sönmez bu şafaklarda yüzen al sancak;</p>
+        <p>Sönmeden yurdumun üstünde tüten en son ocak.</p>
+        <p>O benim milletimin yıldızıdır, parlayacak;</p>
+        <p>O benimdir, o benim milletimindir ancak. </p><br>
+        <p>Çatma, kurban olayım çehreni ey nazlı hilâl!
+        <p>Kahraman ırkıma bir gül… ne bu şiddet bu celâl?</p>
+        <p>Sana olmaz dökülen kanlarımız sonra helâl,</p>
+        <p>Hakkıdır, Hakk’a tapan, milletimin istiklâl.</p><br>
+        <p>Ben ezelden beridir hür yaşadım, hür yaşarım.</p>
+        <p>Hangi çılgın bana zincir vuracakmış? Şaşarım!</p>
+        <p>Kükremiş sel gibiyim; bendimi çiğner, aşarım;</p>
+        <p> Yırtarım dağları, enginlere sığmam, taşarım.</p><br>
+        <p>Garb’ın âfâkını sarmışsa çelik zırhlı duvar;</p>
+        <p>Benim iman dolu göğsüm gibi serhaddim var.</p>
+        <p>Ulusun, korkma! Nasıl böyle bir îmânı boğar,</p>
+        <p> "Medeniyet!" dediğin tek dişi kalmış canavar?</p><br>
+        <p>Arkadaş! Yurduma alçakları uğratma sakın;</p>
+        <p>Siper et gövdeni, dursun bu hayâsızca akın.</p>
+        <p>Doğacaktır sana va’dettiği günler Hakk’ın…</p>
+        <p>Kim bilir, belki yarın… belki yarından da yakın.</p><br>
+        <p>Bastığın yerleri "toprak!" diyerek geçme, tanı!
+        <p>Düşün altındaki binlerce kefensiz yatanı.</p>
+        <p>Sen şehîd oğlusun, incitme, yazıktır atanı;</p>
+        <p>Verme, dünyâları alsan da, bu cennet vatanı.</p><br>
+        <p>Kim bu cennet vatanın uğruna olmaz ki fedâ?</p>
+        <p>Şühedâ fışkıracak, toprağı sıksan şühedâ!</p>
+        <p>Cânı, cânânı, bütün varımı alsın da Hudâ,</p>
+        <p>Etmesin tek vatanımdan beni dünyâda cüdâ.</p><br>
+        <p>Ruhumun senden, İlâhî, şudur ancak emeli:</p>
+        <p>Değmesin ma’bedimin göğsüne nâ-mahrem eli!</p>
+        <p>Bu ezanlar-ki şehâdetleri dînin temeli</p>
+        <p>Ebedî yurdumun üstünde benim inlemeli</p><br>
+        <p>O zaman vecd ile bin secde eder –varsa- taşım;</p>
+        <p>Her cerîhamdan, İlâhî, boşanıp kanlı yaşım,</p>
+        <p>Fışkırır rûh-i mücerred gibi yerden na’şım;</p>
+        <p>O zaman yükselerek Arş’a değer, belki başım.</p><br>
+        <p>Dalgalan sen de şafaklar gibi ey şanlı hilâl;</p>
+        <p>Olsun artık dökülen kanlarımın hepsi helâl.</p>
+        <p>Ebediyen sana yok, ırkıma yok izmihlâl:</p>
+        <p>Hakkıdır, hür yaşamış bayrağımın hürriyet;</p>
+        <p>Hakkıdır, Hakk’a tapan milletimin istiklâl!</p>
+
+    </div>
+
+    <!-- <h1 id="yaziOzellik2">ID testi</h1> -->
+    <div class="box"><b>
+            <h3 class="h3">Turkish Airlines</h3>
+        </b></div>
+
+    <br><br><br>
+
+    <div class="kirmizi" id="margin"></div>
+    <div class="beyaz"></div>
+    <div class="kirmizi"></div>
+
+    <!-- <i class="fa-solid fa-plane-departure fa-spin fa-spin-reverse"></i> -->
+    <br>
+    <center><b>Türk Hava Yolları'nın sitesine gitmek için </b><a href="https://www.turkishairlines.com">tıklayınız.</a>
+    </center>
+
+
+</body>
+
+</html>
