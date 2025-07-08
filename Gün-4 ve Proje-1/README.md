@@ -4,6 +4,7 @@ Ek olarak izlediğim videolardan not almadım çünkü dökümanlarla takip edeb
 
 O yüzden bu klasörün içinde bootstrap projem var.
 
+https://frontend-ogrenme-sureci.vercel.app/ Bu site üzerinden herhangi bir dosya yüklemeden inceleyebilirsiniz.
 
 # ✈️ Uçuş Takip ve Rezervasyon Web Sitesi
 
