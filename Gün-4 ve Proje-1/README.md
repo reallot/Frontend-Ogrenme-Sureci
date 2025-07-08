@@ -5,30 +5,32 @@ Ek olarak izlediğim videolardan not almadım çünkü dökümanlarla takip edeb
 O yüzden Gün - 4 dosyasının içinde bootstrap projem var.
 
 
-✈️ Uçuş Takip ve Rezervasyon Web Sitesi
+# ✈️ Uçuş Takip ve Rezervasyon Web Sitesi
+
 Bu proje, HTML ve Bootstrap 4 kullanılarak oluşturulmuş temel bir uçuş takip ve rezervasyon web sitesidir. Kullanıcı dostu arayüzüyle uçuş bilgilerine erişim, fiyat görüntüleme, iş başvurusu ve iletişim olanakları sunar.
 
-🚀 Özellikler
+## 🚀 Özellikler
 
-  -🏠 Ana Sayfa
+- 🏠 Ana Sayfa  
+- 🛫 Uçuş Bilgileri Sayfası  
+- 💸 Fiyat Listesi  
+- 👨‍💼 Vizyon ve Misyon Sayfası  
+- 💼 İş Fırsatları Sayfası  
+- 📬 İletişim Formu  
+- 📱 Mobil uyumlu ve tamamen responsive yapı  
+- 🎨 Bootstrap 4 ile tasarlanmış modern görünüm  
 
-  -🛫 Uçuş Bilgileri Sayfası
+## 🛠️ Kullanılan Teknolojiler
 
-  -💸 Fiyat Listesi
+- HTML5  
+- CSS3  
+- Bootstrap 4.6  
 
-  -👨‍💼 Vizyon ve Misyon Sayfası
+## 📁 Kurulum
 
-  -💼 İş Fırsatları Sayfası
+Projeyi kendi bilgisayarınızda çalıştırmak için:
 
-  -📬 İletişim Formu
+```bash
+git clone https://github.com/kullaniciadi/proje-adi.git
+cd proje-adi
 
-  -📱 Mobil uyumlu ve tamamen responsive yapı
-
-  -🎨 Bootstrap 4 ile tasarlanmış modern görünüm
-
-🛠️ Kullanılan Teknolojiler
-   HTML5
-
-   CSS3
-
-   Bootstrap 4.6
