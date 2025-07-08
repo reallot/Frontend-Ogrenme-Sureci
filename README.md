@@ -30,9 +30,7 @@ Her gün öğrendiklerimi ve uyguladığım örnekleri `Gün-1`, `Gün-2`, ... k
 
 | Proje | Açıklama |
 |-------|----------|
-| `html-form` | Basit bir iletişim formu tasarımı |
-| `flex-layout` | Flexbox ile yapılan bir layout örneği |
-| `js-todo` (gelecek) | Basit bir ToDo list uygulaması |
+| `Proje-1` | Basit bir uçak arama sitesi tasarlama |
 
 Öğrenme sürecimin sonuna kadar yapacağım tüm "mini" diyebileceğimiz projeleri de ayriyeten; `proje1`, `proje2`, `proje3` vb. olarak ekleyeceğim.
 
