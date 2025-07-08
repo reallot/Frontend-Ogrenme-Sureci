@@ -29,7 +29,7 @@ Her gün öğrendiklerimi ve uyguladığım örnekleri `Gün-1`, `Gün-2`, ... k
 
 
 | Proje | Açıklama |
-|Proje - 1|Örnek uçuş temalı bir site hazırlandı|
+| Proje - 1 | Örnek uçuş temalı bir site hazırlandı |
 
 Öğrenme sürecimin sonuna kadar yapacağım tüm "mini" diyebileceğimiz projeleri de ayriyeten; `proje1`, `proje2`, `proje3` vb. olarak ekleyeceğim.
 
