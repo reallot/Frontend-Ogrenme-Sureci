@@ -13,6 +13,7 @@ Her gün öğrendiklerimi ve uyguladığım örnekleri `Gün-1`, `Gün-2`, ... k
 | 1. Gün | HTML Temelleri | Etiketler, yapılar, temel sayfa oluşturma |
 | 2. Gün | HTML Bitirme | Tablo, form, div, inframe |
 | 3. Gün | CSS başlangıç ve bitiş | Color,text vb. |
+| 4. Gün | JavaScript syntax yapısı ve halihazırda bildiğim kodların nasıl yazığını gördüm. | For,while,switch vb. |
 
 > Not: Bu tablo ve içerikler sürece göre güncellenecektir.
 
@@ -31,6 +32,7 @@ Her gün öğrendiklerimi ve uyguladığım örnekleri `Gün-1`, `Gün-2`, ... k
 | Proje | Açıklama |
 |-------|----------|
 | `Proje-1` | Basit bir uçak arama sitesi tasarlama |
+| `Proje-2` | Konsol üzerinden kitap bulma uygulaması |
 
 Öğrenme sürecimin sonuna kadar yapacağım tüm "mini" diyebileceğimiz projeleri de ayriyeten; `proje1`, `proje2`, `proje3` vb. olarak ekleyeceğim.
 
