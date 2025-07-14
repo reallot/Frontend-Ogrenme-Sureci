@@ -52,6 +52,7 @@ let raflar = [
         let satir="";
         for(let i =0  ; i<raflar.length ; i++){
             for(let j=0 ; j<5 ; j++){
+                //?'den önceki true ise sağdaki çalıştırılır değilse :'den sonraki değer yazılır.
                 satir+="|"+ (raflar[i][j].goster ? raflar[i][j].kod : "---")+"";
               
             }
