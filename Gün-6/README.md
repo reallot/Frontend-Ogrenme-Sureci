@@ -1,1 +1,1 @@
-Bugünün videoları javascript playlistining 59-70 arasındaki videolar.
+Bugünün videoları javascript playlistinin 59-70 arasındaki videolar.
