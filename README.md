@@ -23,7 +23,7 @@ Her gün öğrendiklerimi ve uyguladığım örnekleri `Gün-1`, `Gün-2`, ... k
 - [x] CSS 
 - [x] Bootstrap 
 - [ ] JavaScript (Devam ediyor)
-- [ ] jQuery
+- [ ] jQuery (Devam ediyor)
 - [ ] Mini projeler
 
 ## 🛠 Projeler
